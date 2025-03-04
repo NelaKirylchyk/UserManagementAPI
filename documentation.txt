@@ -1,0 +1,46 @@
+Activity 1:
+Here's how Microsoft Copilot assisted in improving the API code and functionality:
+
+1) Scaffolding the Project:
+
+Microsoft Copilot helped set up the basic structure of the project by providing boilerplate code for Program.cs.
+
+2) Generating the User Model:
+
+Copilot generated the User model, specifying properties like Id, FirstName, LastName, and Email.
+
+3) Creating CRUD Endpoints:
+
+Copilot provided the necessary code to create, update, retrieve, and delete user records, ensuring that all CRUD operations are covered.
+
+4) Ensuring Best Practices:
+
+Copilot suggested using CreatedAtAction for the POST endpoint, which is a best practice for returning the location of the newly created resource.
+
+It also suggested using NoContent status for PUT and DELETE operations to indicate successful completion of the request.
+
+5) Improving Code Readability:
+
+Copilot generated code with clear structure and comments, making it easier to understand and maintain.
+
+
+
+Activity 2:
+
+1) Validation: Copilot suggested adding data annotations to the User model to enforce validation rules.
+
+2) Error handling: Copilot recommended wrapping critical code sections in try-catch blocks to handle exceptions.
+
+3) Performance improvements: Copilot suggested implementing pagination to handle large datasets efficiently.
+
+Activity 3:
+
+1) Token Generation: Copilot helped create the TokenController to generate JWT tokens for authenticated access.
+
+2) Authentication Middleware: Copilot assisted in implementing middleware to validate JWT tokens and bypass the token generation endpoint.
+
+3) Error Handling Middleware: Copilot provided code to catch and handle unhandled exceptions consistently across all endpoints.
+
+4) Logging Middleware: Copilot generated middleware to log all incoming HTTP requests and outgoing responses for auditing purposes.
+
+5) Middleware Configuration: Copilot guided the correct order and setup of middleware in Program.cs to ensure robust and secure operations.
